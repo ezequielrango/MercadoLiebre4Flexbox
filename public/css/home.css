@@ -1,0 +1,256 @@
+/* HEADER */
+
+.home header{
+    background-color: #EAC926;
+    padding: 20px 10px 0 10px;
+}
+
+.home header img{
+    width: 50%;
+    display: inline-block;
+}
+
+.home header form{
+    display: inline-block;
+    width: 48.6%;
+    position: relative;
+    height: 34px;
+    text-align: center;
+    bottom: 3.7vw;
+}
+
+.home header form input{
+    width: 90.6%;
+    height: 100%;
+    border: none;
+    text-indent: 7.4px;
+    border-radius: 5px;
+}
+
+.home header form button{
+    position: absolute;
+    background-color: white;
+    border: none;
+    top: 25%;
+    color: gray;
+    right: 10.4%;
+}
+
+.home header .cuotes-container  {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.home header h2{
+    display: inline;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+    /* font-size: 80%; */
+}
+
+.home header .nav-1,.nav-2{
+    margin: 20px 0px 10px 5px;
+    display: none;
+}
+
+.home header .burger{
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0px 10px 45%;
+    border-radius: 5px;
+    background-color: #1259c3;
+    color: #ffffff;
+}
+
+
+/* MAIN */
+
+.home main .main{
+    width: 90%;
+    margin: auto;
+}
+
+.home main .banner{
+    display: none;
+}
+
+.home main section h2{
+    display: inline-block;
+    margin: 20px auto 30px auto;
+    font-size: 24px;
+}
+
+.home main section .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home main article{
+    background-color: #ffffff;
+    margin-bottom:10px;
+}
+
+.home main article div {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.home main section article div i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+
+.home article .price{
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    width: 30%;
+}
+
+.home article .discount{
+    font-size: 16px;
+    color: #39b54a;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 68%;
+}
+
+.home article h3{
+    font-size: 16px;
+    display: none;
+}
+
+/* FOOTER */
+
+.home footer{
+    background-color: #ffffff;
+}
+
+.home footer article{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home footer article i{
+    color:  #1259c3;
+    font-size: 2em;
+    margin: 60px 0px 10px 0px;
+
+}
+
+.home footer p{
+    padding: 0px 10px 10px;
+}
+
+/* TABLET Y DESKTOP*/
+
+
+@media (min-width:768px){
+
+    /* HEADER */
+
+    
+    .home header .search-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .home header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home header .nav-1, .nav-2{
+        display: flex;
+    }
+
+    .home header .nav-1 li,.home header .nav-2 li{
+        margin: 5px;
+    }
+
+    .home header img {
+        width: 250px;
+    }
+
+    .home header form {
+        display: inline-block;
+        width: 30.3%;
+        bottom: 0;
+    }
+
+    .home header .c-cuotas {
+        display: inline-block;
+        width: 242.9px;
+        position: relative;
+    }
+
+    .home header .nav-1 a,.nav-2 a{
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+
+    .home header .burger{
+        display: none;
+    }
+
+
+    /* MAIN */
+
+    .home main .banner {
+        display: block;
+    }
+
+    .home main section h2 {
+        margin: 3vw auto 5vw auto;
+        font-size: 4vw;
+    }
+
+    .home main article h3{
+        display: block;
+        font-weight: 400;
+    }
+
+    .home main article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        width: 41vw;
+    }
+    .home .flex-container{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+}
+}
+
+
+@media (min-width:1024px){
+
+    .home header .nav-1 li, .home header .nav-2 li {
+        margin: 15px;
+    }
+
+    .home main section h2 {
+        margin: 1.9vw auto 2.9vw auto;
+        font-size: 2.8vw;
+    }
+
+    .home main article {
+        width: 19.3vw;
+    }
+
+}
